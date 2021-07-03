@@ -2,23 +2,24 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
+    name: 'Walter Velásquez',
     aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
-    age: 24,
+    age: 27,
     phone: '',
-    nationality: 'American',
-    language: 'English, French',
+    nationality: 'Ecuatoriano',
+    language: 'Español, Francés',
     email: '',
-    address: '121 King Street, Melbourne, Australia',
-    freelanceStatus: 'Available',
+    address: 'Cuenca, Azuay, Ecuador',
+    freelanceStatus: '',
     socialLinks: {
       facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      twitter: '',
+      instagram: 'https://facebook.com',
       pinterest: '',
       behance: '',
       linkedin: '',
       dribbble: '',
-      github: 'https://github.com'
+      github: ''
     },
     brandImage: '/images/brand-image.jpg',
     aboutImage: '/images/about-image.jpg',

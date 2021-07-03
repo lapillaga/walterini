@@ -67,7 +67,7 @@ function About() {
       </Helmet>
       <div className="mi-about-area mi-section mi-padding-top">
         <div className="container">
-          <Sectiontitle title="About Me" />
+          <Sectiontitle title="Acerca de mí" />
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-about-image">
@@ -95,7 +95,7 @@ function About() {
             <div className="col-lg-6">
               <div className="mi-about-content">
                 <h3>
-                  I am <span className="color-theme">{information.name}</span>
+                  Soy <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
                   I am a frontend web developer. I can provide clean code and
@@ -105,37 +105,37 @@ function About() {
                 <ul>
                   {!information.name ? null : (
                     <li>
-                      <b>Full Name</b> {information.name}
+                      <b>Nombres</b> {information.name}
                     </li>
                   )}
                   {!information.age ? null : (
                     <li>
-                      <b>Age</b> {information.age} Years
+                      <b>Edad</b> {information.age} Years
                     </li>
                   )}
                   {!information.phone ? null : (
                     <li>
-                      <b>Phone</b> {information.phone}
+                      <b>Celular</b> {information.phone}
                     </li>
                   )}
                   {!information.nationality ? null : (
                     <li>
-                      <b>Nationality</b> {information.nationality}
+                      <b>Nacionalidad</b> {information.nationality}
                     </li>
                   )}
                   {!information.language ? null : (
                     <li>
-                      <b>Languages</b> {information.language}
+                      <b>Idiomas</b> {information.language}
                     </li>
                   )}
                   {!information.email ? null : (
                     <li>
-                      <b>Email</b> {information.email}
+                      <b>Correo</b> {information.email}
                     </li>
                   )}
                   {!information.address ? null : (
                     <li>
-                      <b>Address</b> {information.address}
+                      <b>Dirección</b> {information.address}
                     </li>
                   )}
                   {!information.freelanceStatus ? null : (
@@ -145,7 +145,7 @@ function About() {
                   )}
                 </ul>
                 <a href={information.cvfile} className="mi-button">
-                  Download CV
+                  Descargar CV
                 </a>
               </div>
             </div>

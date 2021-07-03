@@ -1,6 +1,7 @@
 {
   "name": "tf-react-chester",
   "version": "4.0.0",
+  "private": true,
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^5.0.1",
