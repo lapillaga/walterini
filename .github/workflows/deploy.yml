@@ -22,7 +22,7 @@ jobs:
           node-version: 16.3.0
 
       - name: Build project
-        run: yarn install tsparticles
+        run: yarn add tsparticles
 
       - name: Install NPM packages
         run: yarn install
