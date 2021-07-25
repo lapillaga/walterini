@@ -12,9 +12,9 @@ const database = {
     address: 'Cuenca, Azuay, Ecuador',
     freelanceStatus: '',
     socialLinks: {
-      facebook: 'https://facebook.com',
+      facebook: 'https://www.facebook.com/Walter-F-Vel%C3%A1squez-100371122016724/',
       twitter: '',
-      instagram: 'https://facebook.com',
+      instagram: 'https://www.instagram.com/walter_f_velasquez/?utm_medium=copy_link',
       pinterest: '',
       behance: '',
       linkedin: '',
@@ -467,7 +467,190 @@ const database = {
     phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
     emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
     address: "121 King Street, Melbourne, Victoria 3000, Australia"
-  }
+  },
+  books: [
+    {
+      id: 1,
+      title: "T-shirt Mockup",
+      subtitle: "A beautiful t-shirt mockup.",
+      imageUrl: "/images/portfolio-image-1.jpg",
+      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      url: 'https://dribbble.com'
+    },
+    {
+      id: 2,
+      title: "Coffee Mug",
+      subtitle: "Awesome coffee mug design.",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://facebook.com'
+    },
+    {
+      id: 3,
+      title: "Tea & Coffee Mug",
+      subtitle: "Beautiful mug with logo.",
+      imageUrl: "/images/portfolio-image-2.jpg",
+      url: 'https://pinterest.com'
+    },
+    {
+      id: 4,
+      title: "Pen Holder",
+      subtitle: "A pen holder with beautiful design.",
+      imageUrl: "/images/portfolio-image-3.jpg",
+      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      url: '#'
+    },
+    {
+      id: 5,
+      title: "Mug",
+      subtitle: "Mug with awesome style",
+      imageUrl: "/images/portfolio-image-5.jpg",
+      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+    },
+    {
+      id: 6,
+      title: "Pendrive",
+      subtitle: "Free pendrive mockup design.",
+      imageUrl: "/images/portfolio-image-6.jpg",
+      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+    },
+    {
+      id: 7,
+      title: "Beautiful Pendrive",
+      subtitle: "Pendrive with great design & flexible.",
+      imageUrl: "/images/portfolio-image-7.jpg",
+      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
+      url: 'https://twitter.com'
+    },
+    {
+      id: 8,
+      title: "Sticker",
+      subtitle: "Clip sticker mockup design.",
+      imageUrl: "/images/portfolio-image-8.jpg",
+      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
+    },
+    {
+      id: 9,
+      title: "Packet",
+      subtitle: "Beautiful packet & product design.",
+      imageUrl: "/images/portfolio-image-9.jpg",
+      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
+    },
+    {
+      id: 10,
+      title: "Pen Holder",
+      subtitle: "A pen holder with beautiful design.",
+      imageUrl: "/images/portfolio-image-3.jpg",
+      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      url: '#'
+    },
+    {
+      id: 11,
+      title: "Coffee Mug",
+      subtitle: "Awesome coffee mug design.",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://facebook.com'
+    },
+    {
+      id: 12,
+      title: "Tea & Coffee Mug",
+      subtitle: "Beautiful mug with logo.",
+      imageUrl: "/images/portfolio-image-2.jpg",
+      url: 'https://pinterest.com'
+    },
+    {
+      id: 13,
+      title: "T-shirt Mockup",
+      subtitle: "A beautiful t-shirt mockup.",
+      imageUrl: "/images/portfolio-image-1.jpg",
+      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      url: 'https://dribbble.com'
+    },
+    {
+      id: 14,
+      title: "Mug",
+      subtitle: "Mug with awesome style",
+      imageUrl: "/images/portfolio-image-5.jpg",
+      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+    },
+    {
+      id: 15,
+      title: "Pendrive",
+      subtitle: "Free pendrive mockup design.",
+      imageUrl: "/images/portfolio-image-6.jpg",
+      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+    },
+    {
+      id: 16,
+      title: "Beautiful Pendrive",
+      subtitle: "Pendrive with great design & flexible.",
+      imageUrl: "/images/portfolio-image-7.jpg",
+      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
+      url: 'https://twitter.com'
+    },
+    {
+      id: 17,
+      title: "Sticker",
+      subtitle: "Clip sticker mockup design.",
+      imageUrl: "/images/portfolio-image-8.jpg",
+      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
+    },
+    {
+      id: 18,
+      title: "Packet",
+      subtitle: "Beautiful packet & product design.",
+      imageUrl: "/images/portfolio-image-9.jpg",
+      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
+    },
+    {
+      id: 19,
+      title: "T-shirt Mockup",
+      subtitle: "A beautiful t-shirt mockup.",
+      imageUrl: "/images/portfolio-image-1.jpg",
+      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
+      url: 'https://dribbble.com'
+    },
+    {
+      id: 20,
+      title: "Coffee Mug",
+      subtitle: "Awesome coffee mug design.",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://facebook.com'
+    },
+    {
+      id: 21,
+      title: "Tea & Coffee Mug",
+      subtitle: "Beautiful mug with logo.",
+      imageUrl: "/images/portfolio-image-2.jpg",
+      url: 'https://pinterest.com'
+    },
+    {
+      id: 22,
+      title: "Pen Holder",
+      subtitle: "A pen holder with beautiful design.",
+      imageUrl: "/images/portfolio-image-3.jpg",
+      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      url: '#'
+    },
+    {
+      id: 23,
+      title: "Mug",
+      subtitle: "Mug with awesome style",
+      imageUrl: "/images/portfolio-image-5.jpg",
+      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+    }
+  ]
 }
 
 
@@ -508,5 +691,10 @@ Mock.onGet("/api/blog").reply(config => {
 
 Mock.onGet("/api/contactinfo").reply(config => {
   const response = database.contactInfo;
+  return [200, response];
+});
+
+Mock.onGet("/api/books").reply(config => {
+  const response = database.books;
   return [200, response];
 });

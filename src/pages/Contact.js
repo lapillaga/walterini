@@ -22,19 +22,19 @@ function Contact() {
     event.preventDefault();
     if (!formdata.name) {
       setError(true);
-      setMessage("Name is required");
+      setMessage("El nombre es requerido");
     } else if (!formdata.email) {
       setError(true);
-      setMessage("Email is required");
+      setMessage("El correo es requerido");
     } else if (!formdata.subject) {
       setError(true);
-      setMessage("Subject is required");
+      setMessage("El asunto es requerido");
     } else if (!formdata.message) {
       setError(true);
-      setMessage("Message is required");
+      setMessage("El mensaje es requerido");
     } else {
       setError(false);
-      setMessage("You message has been sent!!!");
+      setMessage("Tu mensaje ha sido enviado!!!");
     }
   };
   const handleChange = (event) => {
@@ -69,26 +69,26 @@ function Contact() {
   return (
     <Layout>
       <Helmet>
-        <title>Contact - Chester React Personal Portfolio Template</title>
+        <title>Contacto - Walterini</title>
         <meta
           name="description"
-          content="Chester React Personal Portfolio Template Contact Page"
+          content="Walterini Contacto Page"
         />
       </Helmet>
       <div className="mi-contact-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Contact Me" />
+          <Sectiontitle title="Contacto" />
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-contact-formwrapper">
-                <h4>Get In Touch</h4>
+                <h4>Mantente en contacto</h4>
                 <form
                   action="#"
                   className="mi-form mi-contact-form"
                   onSubmit={submitHandler}
                 >
                   <div className="mi-form-field">
-                    <label htmlFor="contact-form-name">Enter your name*</label>
+                    <label htmlFor="contact-form-name">Ingresa tu nombre*</label>
                     <input
                       onChange={handleChange}
                       type="text"
@@ -99,7 +99,7 @@ function Contact() {
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-email">
-                      Enter your email*
+                      Ingresa tu correo*
                     </label>
                     <input
                       onChange={handleChange}
@@ -111,7 +111,7 @@ function Contact() {
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-subject">
-                      Enter your subject*
+                      Ingresa el asunto*
                     </label>
                     <input
                       onChange={handleChange}
@@ -123,7 +123,7 @@ function Contact() {
                   </div>
                   <div className="mi-form-field">
                     <label htmlFor="contact-form-message">
-                      Enter your Message*
+                      Ingresa tu mensaje*
                     </label>
                     <textarea
                       onChange={handleChange}
@@ -132,11 +132,11 @@ function Contact() {
                       cols="30"
                       rows="6"
                       value={formdata.message}
-                    ></textarea>
+                      />
                   </div>
                   <div className="mi-form-field">
                     <button className="mi-button" type="submit">
-                      Send Mail
+                      Enviar correo
                     </button>
                   </div>
                 </form>
@@ -151,7 +151,7 @@ function Contact() {
                       <Icon.Phone />
                     </span>
                     <div className="mi-contact-infoblock-content">
-                      <h6>Phone</h6>
+                      <h6>Teléfono</h6>
                       {phoneNumbers.map((phoneNumber) => (
                         <p key={phoneNumber}>
                           <a href={numberFormatter(phoneNumber)}>
@@ -168,7 +168,7 @@ function Contact() {
                       <Icon.Mail />
                     </span>
                     <div className="mi-contact-infoblock-content">
-                      <h6>Email</h6>
+                      <h6>Correo</h6>
                       {emailAddress.map((email) => (
                         <p key={email}>
                           <a href={`mailto:${email}`}>{email}</a>
@@ -183,7 +183,7 @@ function Contact() {
                       <Icon.MapPin />
                     </span>
                     <div className="mi-contact-infoblock-content">
-                      <h6>Address</h6>
+                      <h6>Dirección</h6>
                       <p>{address}</p>
                     </div>
                   </div>
