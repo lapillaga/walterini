@@ -1,0 +1,2 @@
+(this["webpackJsonptf-react-chester"]=this["webpackJsonptf-react-chester"]||[]).push([[4],{499:function(e,t,s){"use strict";s.r(t),t.default=s.p+"static/media/difference-between-gatsbyjs-and-nextjs.3e5afc22.md"}}]);
+//# sourceMappingURL=4.db068264.chunk.js.map

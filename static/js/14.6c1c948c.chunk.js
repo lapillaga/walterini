@@ -1,2 +1,0 @@
-(this["webpackJsonptf-react-chester"]=this["webpackJsonptf-react-chester"]||[]).push([[14],{431:function(t,e,s){"use strict";s.r(e),e.default=s.p+"static/media/trending-designs-in-2020.ba99803d.md"}}]);
-//# sourceMappingURL=14.6c1c948c.chunk.js.map
