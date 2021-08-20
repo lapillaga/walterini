@@ -3,7 +3,7 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Walter Velásquez',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+    aboutContent: "Apasionado por la literatura y el arte, mis gustos musicales van desde la música clásica, la ópera, el jazz, el blues, el rock y la música indie, desde mi adolescencia escribía fragmentos sobre la vida, el amor y la ilusión junto a situaciones cotidianas de la gran incógnita de la existencia.",
     age: 27,
     phone: '',
     nationality: 'Ecuatoriano',
@@ -650,6 +650,64 @@ const database = {
       imageUrl: "/images/portfolio-image-5.jpg",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
     }
+  ],
+  writers: [
+    {
+      title: "Julio Cortázar",
+      icon: 'user',
+      details: ""
+      // details: "Principal influencia para escribir más seriamente y trabar en mis propios libros."
+    },
+    {
+      title: "Jorge L. Borges",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Mario Benedetti",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Alejandra Pizarnik",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Gabriela Mistral",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Federico Lorca",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Gabriel G. Márquez",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Pablo Neruda",
+      icon: 'user',
+      details: ""
+    },
+    {
+      title: "Edgar A. Poe",
+      icon: 'user',
+      details: ""
+    },
+  ],
+  courses: [
+    {
+      id: 1,
+      content: "Club de escritura.",
+      author: {
+        name: 'Club de los escritores',
+        designation: 'Club'
+      }
+    }
   ]
 }
 
@@ -696,5 +754,15 @@ Mock.onGet("/api/contactinfo").reply(config => {
 
 Mock.onGet("/api/books").reply(config => {
   const response = database.books;
+  return [200, response];
+});
+
+Mock.onGet("/api/courses").reply(config => {
+  const response = database.courses;
+  return [200, response];
+});
+
+Mock.onGet("/api/writers").reply(config => {
+  const response = database.writers;
   return [200, response];
 });

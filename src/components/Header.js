@@ -34,8 +34,8 @@ function Header() {
                     <li><NavLink exact to="/"><span>Inicio</span></NavLink></li>
                     <li><NavLink to="/about"><span>Acerca de</span></NavLink></li>
                     {/*<li><NavLink to="/resume"><span>Resumen</span></NavLink></li>*/}
-                    <li><NavLink to="/portfolios"><span>Portfolios</span></NavLink></li>
-                    <li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>
+                    {/*<li><NavLink to="/portfolios"><span>Portfolios</span></NavLink></li>*/}
+                    {/*<li><NavLink to="/blogs"><span>Blogs</span></NavLink></li>*/}
                     <li><NavLink to="/books"><span>Libros</span></NavLink></li>
                     <li><NavLink to="/projects"><span>Proyectos</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contacto</span></NavLink></li>

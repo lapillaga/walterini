@@ -13,8 +13,8 @@ import Testimonial from "../components/Testimonial";
 function About() {
   const [toggler, setToggler] = useState(false);
   const [information, setInformation] = useState("");
-  const [services, setServices] = useState([]);
-  const [reviews, setReviews] = useState([]);
+  const [courses, setCourses] = useState([]);
+  const [writers, setWriters] = useState([]);
 
   const sliderSettings = {
     dots: false,
@@ -48,12 +48,12 @@ function About() {
     axios.get("/api/information").then((response) => {
       setInformation(response.data);
     });
-    axios.get("/api/services").then((response) => {
-      setServices(response.data);
+    axios.get("/api/writers").then((response) => {
+      setWriters(response.data);
     });
-    axios.get("/api/reviews").then((response) => {
-      setReviews(response.data);
-    });
+    axios.get('/api/courses').then((response) => {
+      setCourses(response.data);
+    })
   }, []);
 
   return (
@@ -98,9 +98,7 @@ function About() {
                   Soy <span className="color-theme">{information.name}</span>
                 </h3>
                 <p>
-                  I am a frontend web developer. I can provide clean code and
-                  pixel perfect design. I also make website more & more
-                  interactive with web animations.
+                  Ser introvertido en mi niñez hasta iniciar mi adultez sirvió mucho para encontrar mis habilidades y aptitudes como; la música, el dibujo, la fotografía, la lectura, el haber escogido la psicología clínica como mi carrera de profesión y lo más importante “la necesidad de escribir”.
                 </p>
                 <ul>
                   {!information.name ? null : (
@@ -154,15 +152,15 @@ function About() {
       </div>
       <div className="mi-service-area mi-section mi-padding-top">
         <div className="container">
-          <Sectiontitle title="Services" />
+          <Sectiontitle title="Mi inspiración" />
           <div className="mi-service-wrapper">
             <div className="row mt-30-reverse">
-              {services.map((service) => (
+              {writers.map((writer) => (
                 <div
                   className="col-lg-4 col-md-6 col-12 mt-30"
-                  key={service.title}
+                  key={writer.title}
                 >
-                  <Service content={service} />
+                  <Service content={writer} />
                 </div>
               ))}
             </div>
@@ -171,12 +169,12 @@ function About() {
       </div>
       <div className="mi-review-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Reviews" />
+          <Sectiontitle title="Cursos" />
           <div className="row justify-content-center">
             <div className="col-12">
               <Slider className="mi-testimonial-slider" {...sliderSettings}>
-                {reviews.map((review) => (
-                  <Testimonial key={review.id} content={review} />
+                {courses.map((course) => (
+                  <Testimonial key={course.id} content={course} />
                 ))}
               </Slider>
             </div>
