@@ -1,0 +1,5 @@
+![Amores confusos del nuevo siglo](/images/projects/3.jpg)
+
+### “Amores confusos del nuevo siglo”
+
+Este libro, es un análisis sobre los vínculos afectivos de las parejas actuales desde una visión psicológica y social; abordaremos sobre las relaciones afectivas en las diferentes épocas, los conflictos y del cómo a sido su evolución hasta la actualidad. Analizaremos las diferentes incógnitas tales como: ¿Que une a las parejas? ¿Es el amor una necesidad, un escape o una obligación? ¿En la actualidad hay un amor real o idealizado? ¿En las parejas actuales, hay conexión emocional o sexual? ¿Amor de crecimiento mutuo o industrializado? ¿Dependencia o miedo a crecer en soledad? ¿Infidelidad o mala elección? Entre otras incógnitas que ayudarán a entender sobre las relaciones de pareja y mejorar los vínculos afectivos, y sobre todo, entender una proyección del amor en épocas posteriores.

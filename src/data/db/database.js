@@ -464,23 +464,23 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['+593 963354147'],
+    emailAddress: ['waltervelasquez-94@hotmail.com', 'fabianorecords94@gmail.com'],
+    address: "Cuenca, Azuay, Ecuador"
   },
   books: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Rayuela",
+      subtitle: "Julio Cortázar",
+      imageUrl: "/images/rayuela.jpg",
+      largeImageUrl: ["/images/rayuela.jpg"],
+      url: 'https://www.amazon.com/dp/B07QDP5JMG/ref=cm_sw_em_r_mt_dp_7P6A4NXEY1JAF86S7MPT'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
+      title: "Los miserables",
+      subtitle: "Víctor Hugo",
       imageUrl: "/images/portfolio-image-4.jpg",
       largeImageUrl: [
         "/images/portfolio-image-4-lg.jpg",
@@ -490,165 +490,47 @@ const database = {
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Memoria de mis putas tristes",
+      subtitle: "Gabriel Garcia Márquez",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://facebook.com'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      title: "Amor en tiempos de cólera",
+      subtitle: "Gabriel García Márquez",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://facebook.com'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "La metamorfosis",
+      subtitle: "Franz Kafka",
+      imageUrl: "/images/portfolio-image-4.jpg",
+      largeImageUrl: [
+        "/images/portfolio-image-4-lg.jpg",
+        "/images/portfolio-image-4-lg2.jpg"
+      ],
+      url: 'https://facebook.com'
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 10,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 11,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
+      title: "El arte de amar",
+      subtitle: "Erich  Fromm",
       imageUrl: "/images/portfolio-image-4.jpg",
       largeImageUrl: [
         "/images/portfolio-image-4-lg.jpg",
         "/images/portfolio-image-4-lg2.jpg"
       ],
       url: 'https://facebook.com'
-    },
-    {
-      id: 12,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 13,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 14,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
-    },
-    {
-      id: 15,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
-    },
-    {
-      id: 16,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
-    },
-    {
-      id: 17,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
-    },
-    {
-      id: 18,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    },
-    {
-      id: 19,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
-    },
-    {
-      id: 20,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
-    },
-    {
-      id: 21,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
-    },
-    {
-      id: 22,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
-    },
-    {
-      id: 23,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
     }
   ],
   writers: [
@@ -708,7 +590,54 @@ const database = {
         designation: 'Club'
       }
     }
-  ]
+  ],
+  projects: [
+    {
+      id: 1,
+      title: '“Ni coincidencias ni causalidades” Las señales del tiempo…',
+      featuredImage: '/images/projects/1.jpg',
+      filesource: '../../project/ni-coincidencias-ni-casualidades.md',
+      createDay: "20",
+      createMonth: 'August',
+      createYear: "2021"
+    },
+    {
+      id: 2,
+      title: '“Los amores platónicos” Breve historia de las pequeñas y las fuertes ilusiones…',
+      featuredImage: '/images/projects/2.jpg',
+      filesource: '../../project/los-amores-platonicos.md',
+      createDay: "20",
+      createMonth: 'August',
+      createYear: "2021"
+    },
+    {
+      id: 3,
+      title: '“Amores confusos del nuevo siglo”',
+      featuredImage: '/images/projects/3.jpg',
+      filesource: '../../project/amores-confusos-del-nuevo-siglo.md',
+      createDay: "20",
+      createMonth: 'August',
+      createYear: "2021"
+    },
+    {
+      id: 4,
+      title: '“La locura es genialidad”',
+      featuredImage: '/images/projects/4.jpg',
+      filesource: '../../project/la-locura-es-genialidad.md',
+      createDay: "20",
+      createMonth: 'August',
+      createYear: "2021"
+    },
+    {
+      id: 5,
+      title: '“Viviendo en un mundo cercano al mío”',
+      featuredImage: '/images/projects/5.jpg',
+      filesource: '../../project/viviendo-en-un-mundo-cercano-al-mio.md',
+      createDay: "20",
+      createMonth: 'August',
+      createYear: "2021"
+    }
+  ],
 }
 
 
@@ -764,5 +693,10 @@ Mock.onGet("/api/courses").reply(config => {
 
 Mock.onGet("/api/writers").reply(config => {
   const response = database.writers;
+  return [200, response];
+});
+
+Mock.onGet("/api/projects").reply(config => {
+  const response = database.projects;
   return [200, response];
 });
