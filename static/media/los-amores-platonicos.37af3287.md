@@ -1,0 +1,5 @@
+![Amores platonicos](/images/projects/2.jpg)
+
+### “Los amores platónicos” Breve historia de las pequeñas y las fuertes ilusiones…
+
+En este libro, contado desde tercera persona encontraras la historia de un personaje que desde su infancia empieza a descubrir las primeras emociones que van evolucionando hasta convertirse en aquellas emociones  que se vuelven difíciles de entender, donde se confunde con el amor real y el amor platónico, tras varias decepciones y un montón de eventos entiende (y elijo amarla correré el riego de que se vaya, pero, si la amo en silencio sin cómplices ni evidencias la veré por veré por siempre feliz sim importar que no sea junto a mi ). Enamórate y elije libremente solo si eres lo suficientemente capaz de dejar ir, cuando llegue el momento. Un libro que ten enseña sobre la importancia de creer individual y emocionalmente para construir una personalidad que pueda entender al amor en todas sus manifestaciones, no elegir para lastimar sino elegir para construir.

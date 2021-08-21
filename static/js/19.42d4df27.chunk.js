@@ -1,0 +1,2 @@
+(this["webpackJsonptf-react-chester"]=this["webpackJsonptf-react-chester"]||[]).push([[19],{518:function(e,t,a){"use strict";a.r(t),t.default=a.p+"static/media/la-locura-es-genialidad.6e6ebc90.md"}}]);
+//# sourceMappingURL=19.42d4df27.chunk.js.map

@@ -1,2 +1,0 @@
-(this["webpackJsonptf-react-chester"]=this["webpackJsonptf-react-chester"]||[]).push([[13],{508:function(t,e,s){"use strict";s.r(e),e.default=s.p+"static/media/time-to-use-latest-technology-for-creating-a-website.2b8a1fe1.md"}}]);
-//# sourceMappingURL=13.b4c80986.chunk.js.map
